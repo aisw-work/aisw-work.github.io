@@ -16,13 +16,3 @@ enableRobotsTXT = true
 [taxonomies]
   category = 'categories'
   tag = 'tags'
-
-[[menus.main]]
-  name = '뉴스'
-  url = '/categories/뉴스'
-  weight = 1
-
-[[menus.main]]
-  name = '인기상품'
-  url = '/categories/이커머스'
-  weight = 2
