@@ -13,6 +13,21 @@ enableRobotsTXT = true
   ShowToc = false
   homeInfoParams = {Title = "Naps's Blog", Content = "매일 업데이트되는 AI/ML 뉴스와 네이버 인기 상품 다이제스트입니다."}
 
+[[menus.main]]
+  name = "최신뉴스"
+  url = "/"
+  weight = 1
+
+[[menus.main]]
+  name = "AI 트렌드"
+  url = "/posts/ai-trend/"
+  weight = 2
+
+[[menus.main]]
+  name = "인기제품"
+  url = "/posts/popular-products/"
+  weight = 3
+
 [taxonomies]
   category = 'categories'
   tag = 'tags'
