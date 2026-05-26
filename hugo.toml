@@ -11,7 +11,7 @@ enableRobotsTXT = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowToc = false
-  homeInfoParams = {Title = "AI 트렌드 & 인기상품", Content = "매일 업데이트되는 AI/ML 뉴스와 네이버 인기 상품 다이제스트입니다."}
+  homeInfoParams = {Title = "Naps's Blog", Content = "매일 업데이트되는 AI/ML 뉴스와 네이버 인기 상품 다이제스트입니다."}
 
 [taxonomies]
   category = 'categories'
