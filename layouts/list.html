@@ -39,17 +39,16 @@
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
+{{- $todayFilter := "" }}
 
 {{- if .IsHome }}
-{{- $today := now.Format "2006-01-02" }}
-{{- $allPages := where site.RegularPages "Params.hiddenInHomeList" "!=" "true" }}
-{{- $todayPages := slice }}
-{{- range $allPages }}
-  {{- if eq (.Date.Format "2006-01-02") $today }}
-    {{- $todayPages = $todayPages | append . }}
-  {{- end }}
+{{- $todayFilter = now.Format "2006-01-02" }}
+{{- $aiSection := site.GetPage "/posts/ai-trend" }}
+{{- if $aiSection }}
+{{- $pages = $aiSection.RegularPages }}
+{{- else }}
+{{- $pages = site.RegularPages }}
 {{- end }}
-{{- $pages = $todayPages }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}
@@ -69,6 +68,8 @@
 
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
+
+{{- if and $.IsHome $todayFilter (ne (.Date.Format "2006-01-02") $todayFilter) }}{{- continue }}{{- end }}
 
 {{- $class := "post-entry" }}
 
