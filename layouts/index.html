@@ -1,0 +1,49 @@
+{{- define "main" }}
+
+{{- if and site.Params.homeInfoParams (not site.Params.profileMode.enabled) }}
+{{- partial "home_info.html" . }}
+{{- end }}
+
+{{- $today := now.Format "2006-01-02" }}
+{{- $allPages := where site.RegularPages "Params.hiddenInHomeList" "!=" "true" }}
+{{- $todayPages := slice }}
+{{- range $allPages }}
+  {{- if eq (.Date.Format "2006-01-02") $today }}
+    {{- $todayPages = $todayPages | append . }}
+  {{- end }}
+{{- end }}
+
+<header class="page-header">
+  <h1>최신뉴스 — {{ now.Format "2006년 01월 02일" }}</h1>
+</header>
+
+{{- if eq (len $todayPages) 0 }}
+<div class="post-content">
+  <p>오늘 발행된 포스트가 없습니다.</p>
+</div>
+{{- else }}
+{{- range $index, $page := $todayPages }}
+{{- $class := "post-entry" }}
+{{- if eq $index 0 }}{{- $class = "post-entry" }}{{- end }}
+<article class="{{ $class }}">
+  {{- $isHidden := ($page.Param "cover.hiddenInList") | default ($page.Param "cover.hidden") | default false }}
+  {{- partial "cover.html" (dict "cxt" $page "IsSingle" false "isHidden" $isHidden) }}
+  <header class="entry-header">
+    <h2>{{- $page.Title }}</h2>
+  </header>
+  {{- if (ne ($page.Param "hideSummary") true) }}
+  <div class="entry-content">
+    <p>{{ $page.Summary | plainify | htmlUnescape }}{{ if $page.Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+  {{- if not ($page.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" $page -}}
+  </footer>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ $page.Title | plainify }}" href="{{ $page.Permalink }}"></a>
+</article>
+{{- end }}
+{{- end }}
+
+{{- end }}{{- /* end main */ -}}
