@@ -5,30 +5,28 @@
 {{- end }}
 
 {{- $today := now.Format "2006-01-02" }}
-{{- $allPages := where site.RegularPages "Params.hiddenInHomeList" "!=" "true" }}
-{{- $pages := slice }}
-{{- range $allPages }}
-  {{- if eq (.Date.Format "2006-01-02") $today }}
-    {{- $pages = $pages | append . }}
+{{- $todayPages := slice }}
+{{- range site.RegularPages }}
+  {{- if and (ne (.Param "hiddenInHomeList") true) (eq (.Date.Format "2006-01-02") $today) }}
+    {{- $todayPages = $todayPages | append . }}
   {{- end }}
 {{- end }}
+
+{{- $paginator := .Paginate $todayPages }}
 
 <header class="page-header">
   <h1>최신뉴스 — {{ now.Format "2006년 01월 02일" }}</h1>
 </header>
 
-{{- if eq (len $pages) 0 }}
+{{- if eq (len $todayPages) 0 }}
 <div class="post-content">
   <p>오늘 발행된 포스트가 없습니다.</p>
 </div>
 {{- else }}
 
-{{- range $index, $page := $pages }}
+{{- range $index, $page := $paginator.Pages }}
 
 {{- $class := "post-entry" }}
-{{- if (and (eq $index 0) (not site.Params.disableSpecial1stPost) (not site.Params.homeInfoParams)) }}
-{{- $class = "first-entry" }}
-{{- end }}
 
 <article class="{{ $class }}">
   {{- $isHidden := ($page.Param "cover.hiddenInList") | default ($page.Param "cover.hidden") | default false }}
