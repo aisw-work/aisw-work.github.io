@@ -1,6 +1,6 @@
 baseURL = 'https://aisw-work.github.io/'
 languageCode = 'ko'
-title = 'AI 트렌드 & 인기상품 다이제스트'
+title = "Naps's Blog"
 theme = 'PaperMod'
 paginate = 10
 enableRobotsTXT = true
