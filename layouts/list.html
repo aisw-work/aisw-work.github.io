@@ -39,16 +39,26 @@
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
-{{- $todayFilter := "" }}
 
 {{- if .IsHome }}
-{{- $todayFilter = now.Format "2006-01-02" }}
-{{- $aiSection := site.GetPage "/posts/ai-trend" }}
-{{- if $aiSection }}
-{{- $pages = $aiSection.RegularPages }}
-{{- else }}
-{{- $pages = site.RegularPages }}
+{{- /* Find most recent date across ALL sections (date string from post, timezone-aware via Hugo timeZone) */}}
+{{- $allPages := site.RegularPages }}
+{{- $latestDate := "" }}
+{{- range $allPages }}
+  {{- if eq $latestDate "" }}
+    {{- $latestDate = .Date.Format "2006-01-02" }}
+  {{- end }}
+  {{- break }}
 {{- end }}
+
+{{- /* Collect only pages whose date matches the most recent date */}}
+{{- $dayPages := slice }}
+{{- range $allPages }}
+  {{- if eq (.Date.Format "2006-01-02") $latestDate }}
+    {{- $dayPages = $dayPages | append . }}
+  {{- end }}
+{{- end }}
+{{- $pages = $dayPages }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}
@@ -57,19 +67,8 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
-{{- if .IsHome }}
-<header class="page-header">
-  <h1>최신뉴스 — {{ now.Format "2006년 01월 02일" }}</h1>
-</header>
-{{- if eq (len $pages) 0 }}
-<div class="post-content"><p>오늘 발행된 포스트가 없습니다.</p></div>
-{{- end }}
-{{- end }}
-
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
-
-{{- if and $.IsHome $todayFilter (ne (.Date.Format "2006-01-02") $todayFilter) }}{{- continue }}{{- end }}
 
 {{- $class := "post-entry" }}
 
@@ -81,7 +80,7 @@
 {{- end }}
 
 <article class="{{ $class }}">
-  {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+  {{- $isHidden := $.IsHome | default ((.Param "cover.hiddenInList") | default ((.Param "cover.hidden") | default false)) }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">
     <h2 class="entry-hint-parent">
