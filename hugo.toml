@@ -1,5 +1,6 @@
 baseURL = 'https://aisw-work.github.io/'
 languageCode = 'ko'
+timeZone = 'Asia/Seoul'
 title = "Naps's Blog"
 theme = 'PaperMod'
 paginate = 10
