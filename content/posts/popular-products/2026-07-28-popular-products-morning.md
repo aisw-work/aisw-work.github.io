@@ -1,0 +1,127 @@
+---
+title: "2026년 07월 28일 오전 인기상품 Top 10"
+date: "2026-07-28T08:15:30+09:00"
+categories: ["인기제품"]
+tags: ["스포츠/레저", "화장품/미용", "가전/디지털", "인기상품", "쇼핑"]
+draft: false
+cover:
+  image: "https://images.unsplash.com/photo-1746379035163-425ba494c05f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTUyOTJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUxOTQxNDV8&ixlib=rb-4.1.0&q=80&w=1080"
+  alt: "Photo by Yue WU on Unsplash"
+  caption: "<span style='font-size:8px;line-height:1;'>@Photo by <a href='https://unsplash.com/@samuelwu' style='text-decoration:none;'>Yue WU</a> on <a href='https://unsplash.com' style='text-decoration:none;'>Unsplash</a></span>"
+  relative: false
+---
+
+## 🛍️ 2026년 07월 28일 오전 인기상품 Top 10
+
+> Amazon Best Sellers·네이버 트렌드·Google Trends 가중 점수 기반
+
+### 1.  (TOSY Flying Disc - 16 Million Colors RGB or 36 LEDs, Extremely Bright, Smart Modes, Camping Essentials for Teens/Kids/Adults/Men/Boys/Girls, Auto Light Up, Rechargeable, Waterproof, 175g)
+
+- **카테고리**: 스포츠/레저
+- **가격**: $19.48
+- **평점**: ⭐ 4.6
+- **트렌드**: 글로벌 인기 상품
+- **링크**: [Amazon에서 보기](https://www.amazon.com/TOSY-Million-Color-Flying-Disc/dp/B0C3ZTKRGX/ref=sr_1_1?keywords=best+sellers+Sports+%26+Outdoors&qid=1785193275&sr=8-1)
+- **국내 구매처**: [네이버 쇼핑](https://search.shopping.naver.com/search/all?query=TOSY%20Flying%20Disc%20-) · [11번가](https://search.11st.co.kr/Search.tmall?kwd=TOSY%20Flying%20Disc%20-)
+
+---
+
+### 2.  (Amazon Echo Dot (newest model) - Vibrant sounding speaker, Designed for Alexa+, Great for bedrooms, dining rooms and offices, Glacier White)
+
+- **카테고리**: 가전/디지털
+- **가격**: $49.99
+- **평점**: ⭐ 4.7
+- **트렌드**: 글로벌 인기 상품
+- **링크**: [Amazon에서 보기](https://www.amazon.com/Amazon-release-vibrant-helpful-routines/dp/B09B94RL1R/ref=sr_1_1?keywords=best+sellers+Electronics&qid=1785193259&sr=8-1)
+- **국내 구매처**: [네이버 쇼핑](https://search.shopping.naver.com/search/all?query=Amazon%20Echo%20Dot%20%28newest) · [11번가](https://search.11st.co.kr/Search.tmall?kwd=Amazon%20Echo%20Dot%20%28newest)
+
+---
+
+### 3.  (LANEIGE Lip Glowy Balm: Sheer Tinted Lip Moisturizer with Shea Butter, for Hydrating Shine & Soft Lips)
+
+- **카테고리**: 화장품/미용
+- **가격**: $19.00
+- **평점**: ⭐ 4.7
+- **트렌드**: 글로벌 인기 상품
+- **링크**: [Amazon에서 보기](https://www.amazon.com/Laneige-Lip-Glowy-Balm-Berry/dp/B07DY2QRF6/ref=sr_1_1?keywords=best+sellers+Beauty&qid=1785193263&sr=8-1)
+- **국내 구매처**: [네이버 쇼핑](https://search.shopping.naver.com/search/all?query=LANEIGE%20Lip%20Glowy%20Balm%3A) · [11번가](https://search.11st.co.kr/Search.tmall?kwd=LANEIGE%20Lip%20Glowy%20Balm%3A) · [무신사](https://www.musinsa.com/search/goods?keyword=LANEIGE%20Lip%20Glowy%20Balm%3A)
+
+---
+
+### 4.  (Fun Boomerang for Kids - Soft & Easy to Use - Outdoor Toys for Kids or Adults - Best Gifts for 6 7 8 9 10 Year Old Boys & Girls + 2026 Top Toys for Boys Age 8-12 - Fun Outdoor Toy for Boy Gift Ideas)
+
+- **카테고리**: 스포츠/레저
+- **가격**: $14.87
+- **평점**: ⭐ 4.2
+- **트렌드**: 글로벌 인기 상품
+- **링크**: [Amazon에서 보기](https://www.amazon.com/Boomerang-Kids-Outdoor-Frisbee-Boomerangs/dp/B08HN2V7GY/ref=sr_1_3?keywords=best+sellers+Sports+%26+Outdoors&qid=1785193275&sr=8-3)
+- **국내 구매처**: [네이버 쇼핑](https://search.shopping.naver.com/search/all?query=Fun%20Boomerang%20for%20Kids) · [11번가](https://search.11st.co.kr/Search.tmall?kwd=Fun%20Boomerang%20for%20Kids)
+
+---
+
+### 5.  (Nelko P21 Label Maker Machine with Tape, Bluetooth Label Printer, White | Creative App & Multiple Templates, Inkless Printing, Built-in Cutter, Ideal for School, Teacher Supplies, Office, and Home)
+
+- **카테고리**: 가전/디지털
+- **가격**: $16.99
+- **평점**: ⭐ 4.5
+- **트렌드**: 글로벌 인기 상품
+- **링크**: [Amazon에서 보기](https://www.amazon.com/Nelko-P21-Bluetooth-Templates-Organizing/dp/B0C3L93F2Q/ref=sr_1_2?keywords=best+sellers+Electronics&qid=1785193259&sr=8-2)
+- **국내 구매처**: [네이버 쇼핑](https://search.shopping.naver.com/search/all?query=Nelko%20P21%20Label%20Maker) · [11번가](https://search.11st.co.kr/Search.tmall?kwd=Nelko%20P21%20Label%20Maker)
+
+---
+
+### 6.  (medicube Capsule Cream with Deep Vitamin C | Liposome Vitamin C Golden Capsule for Radiance & Firm-Looking Skin | Hydrating Glow Gel Texture | Korean Skincare, 1.94 oz)
+
+- **카테고리**: 화장품/미용
+- **가격**: $16.90
+- **평점**: ⭐ 4.6
+- **트렌드**: 글로벌 인기 상품
+- **링크**: [Amazon에서 보기](https://www.amazon.com/medicube-Liposome-Radiance-Firm-Looking-Hydrating/dp/B0D2Z3GGCY/ref=sr_1_3?keywords=best+sellers+Beauty&qid=1785193263&sr=8-3)
+- **국내 구매처**: [네이버 쇼핑](https://search.shopping.naver.com/search/all?query=medicube%20Capsule%20Cream%20with) · [11번가](https://search.11st.co.kr/Search.tmall?kwd=medicube%20Capsule%20Cream%20with) · [무신사](https://www.musinsa.com/search/goods?keyword=medicube%20Capsule%20Cream%20with)
+
+---
+
+### 7.  (BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask, Pore Minimizing, Plumping, Elasticity Improvement, Korean Skin Care, Self Care Gifts for Women | 1.19oz(34g) x 16ea)
+
+- **카테고리**: 화장품/미용
+- **가격**: $62.00
+- **평점**: ⭐ 4.5
+- **트렌드**: 글로벌 인기 상품
+- **링크**: [Amazon에서 보기](https://www.amazon.com/Biodance-Bio-Collagen-Tightening-Hydrating-Molecular/dp/B0B879FZBZ/ref=sr_1_2?keywords=best+sellers+Beauty&qid=1785193263&sr=8-2)
+- **국내 구매처**: [네이버 쇼핑](https://search.shopping.naver.com/search/all?query=BIODANCE%20Bio-Collagen%20Real%20Deep) · [11번가](https://search.11st.co.kr/Search.tmall?kwd=BIODANCE%20Bio-Collagen%20Real%20Deep) · [무신사](https://www.musinsa.com/search/goods?keyword=BIODANCE%20Bio-Collagen%20Real%20Deep)
+
+---
+
+### 8.  (Polarized Sports Sunglasses for Men Women Unbreakable Frame Cycling Fishing Wrap Around Sunglasses UV400 Protection)
+
+- **카테고리**: 스포츠/레저
+- **가격**: $18.99
+- **평점**: ⭐ 4.3
+- **트렌드**: 글로벌 인기 상품
+- **링크**: [Amazon에서 보기](https://www.amazon.com/Ofwin-Polarized-Sunglasses-Unbreakable-Protection/dp/B0C13T4WVL/ref=sr_1_2?keywords=best+sellers+Sports+%26+Outdoors&qid=1785193275&sr=8-2)
+- **국내 구매처**: [네이버 쇼핑](https://search.shopping.naver.com/search/all?query=Polarized%20Sports%20Sunglasses%20for) · [11번가](https://search.11st.co.kr/Search.tmall?kwd=Polarized%20Sports%20Sunglasses%20for)
+
+---
+
+### 9.  (VEGER Portable Charger, Ultra Slim Power Bank Built in Wall Plug and Cables | 10000mAh All in One USB C External Battery Pack, Travel Essentials, Compatible with iPhone, iPad, Samsung, Android, Navy)
+
+- **카테고리**: 가전/디지털
+- **가격**: $26.99
+- **평점**: ⭐ 4.6
+- **트렌드**: 글로벌 인기 상품
+- **링크**: [Amazon에서 보기](https://www.amazon.com/VEGER-Portable-10000mah-Essential-Compatible/dp/B0CQMW5NLG/ref=sr_1_3?keywords=best+sellers+Electronics&qid=1785193259&sr=8-3)
+- **국내 구매처**: [네이버 쇼핑](https://search.shopping.naver.com/search/all?query=VEGER%20Portable%20Charger%2C%20Ultra) · [11번가](https://search.11st.co.kr/Search.tmall?kwd=VEGER%20Portable%20Charger%2C%20Ultra)
+
+---
+
+### 10.  (TOSY Flying Ring - 36 RGB Multicolor or 12 Monocolor LEDs, Super Bright, Lost Mode, Auto Light Up, Camping Essentials for Kid/Teen/Boy/Girl, Safe & Soft, Waterproof, Pool/Beach Games, Lightweight Toy)
+
+- **카테고리**: 스포츠/레저
+- **가격**: $15.98
+- **평점**: ⭐ 4.3
+- **트렌드**: 글로벌 인기 상품
+- **링크**: [Amazon에서 보기](https://www.amazon.com/TOSY-Flying-Ring-Waterproof-Lightweight/dp/B0DDL1FC2J/ref=sr_1_5?keywords=best+sellers+Sports+%26+Outdoors&qid=1785193275&sr=8-5)
+- **국내 구매처**: [네이버 쇼핑](https://search.shopping.naver.com/search/all?query=TOSY%20Flying%20Ring%20-) · [11번가](https://search.11st.co.kr/Search.tmall?kwd=TOSY%20Flying%20Ring%20-)
+
+---
+
